@@ -1,4 +1,6 @@
+"use strict"
 // player factory function
+
 const createPlayer = (name, marker) => {
     return {name, marker};
 }
@@ -9,7 +11,7 @@ const gameBoard = (() => {
 
     //generate board array
     let board = [];
-    for(i = 0; i < 9; i++) {
+    for(let i = 0; i < 9; i++) {
         board.push('');
     }
 
