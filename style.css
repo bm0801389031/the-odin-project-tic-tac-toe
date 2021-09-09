@@ -9,7 +9,7 @@
 
 :root{
     --green: #08772d;
-    --accent-red: #f7928f;
+    --accent-red: #47302f;
     --darkblue: #333652;
     --accent-yellow: #ffea8c;
     --dark-yellow: #cab039;
@@ -19,7 +19,7 @@
 
 html{
     font-size: 8px;
-    background-color: var(darkblue);
+    background-color: var(--darkblue);
 }
 
 body{
@@ -99,12 +99,12 @@ header{
 }
 
 .X::after{
-    content: '\u03c7';
+    content: "\03C7";
     color: var(--red);
 }
 
 .O::after{
-    content: '\u039f';
+    content: "\039f";
     color: var(--dark-yellow);
 }
 
